@@ -1,0 +1,1605 @@
+# Translation of Plugins - WordPress Button Plugin MaxButtons - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WordPress Button Plugin MaxButtons - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-11 10:44:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WordPress Button Plugin MaxButtons - Stable (latest release)\n"
+
+#: includes/maxbuttons-button.php:82
+msgid "You can find most of these options in the dialogs you can access in classic editor, Gutenberg and various pagebuilders so you don't need to memorize."
+msgstr "Вы можете найти большинство из этих параметров в диалоговых окнах, к которым вы можете получить доступ в классическом редакторе, Gutenberg и различных конструкторах страниц, поэтому вам не нужно запоминать."
+
+#: blocks/basic.php:388
+msgid ""
+"<p>This text will appear when hovering over the button. You can try this in the preview.</p>\n"
+"\t\t\t\t\t<p class=\"shortcode\">Shortcode attribute : linktitle</p>"
+msgstr ""
+"<p>Этот текст будет появляться при наведении курсора на кнопку. Вы можете попробовать это в предварительном просмотре.</p>\n"
+"\t\t\t\t\t<p class=\"shortcode\">Атрибут шорткода : linktitle</p>"
+
+#: blocks/basic.php:379
+msgid "This will tell the browser to download the URL"
+msgstr "Это позволит браузеру загрузить URL"
+
+#: blocks/basic.php:282
+msgid ""
+"<p>Internal name for button. Specify purpose or use. Additional info can be added to description.</p> <p>You can use button name in the shortcode <br> [maxbutton name=\"button-name\"] </p>\n"
+"\t\t\t\t\t\t<p class=\"shortcode\"> Shortcode attribute : name </p>"
+msgstr ""
+"<p>Внутреннее название для кнопки. Укажите назначение или использование. Дополнительная информация может быть добавлена в описание.</p> <p>Вы можете использовать название кнопки в шорткоде <br> [maxbutton name=\"button-name\"] </p>.\n"
+"\t\t\t\t\t\t<p class=\"shortcode\"> Атрибут шорткода : имя </p>"
+
+#: blocks/responsive.php:316
+msgid "Save changes and add new responsive screen"
+msgstr "Сохраните изменения и добавьте новый адаптивный экран"
+
+#: blocks/responsive.php:291
+msgid "When active, the button will not display at all in this screen. This can be used to hide the butt on devices"
+msgstr "Когда эта кнопка активна, она вообще не отображается на этом экране. Это можно использовать, чтобы скрыть зад на устройствах"
+
+#: blocks/responsive.php:250
+msgid "This will fill out the width and height fields according to the chosen preset. Select a preset and click \"Apply Preset\""
+msgstr "При этом поля ширины и высоты будут заполнены в соответствии с выбранной предустановкой. Выберите предустановку и нажмите \"Применить предустановку\""
+
+#: blocks/responsive.php:196
+msgid "<p>Add a Responsive Screen to prepare your button for mobile devices. <br> Put the width and height of the view screen you want this design to be active at. <br> Then click the 'save changes and add screen' button.</p> "
+msgstr "<p> Добавьте адаптивный экран, чтобы подготовить кнопку для мобильных устройств. <br> Укажите ширину и высоту экрана просмотра, на котором вы хотите, чтобы этот дизайн был активен. <br> Затем нажмите кнопку «Сохранить изменения и добавить экран».</p> "
+
+#: blocks/responsive.php:188
+msgid "Responsive Screen Settings"
+msgstr "Настройки адаптивности экрана"
+
+#: classes/screen.php:429
+msgid "for mobile"
+msgstr "для мобильных"
+
+#: classes/screen.php:428
+msgid "Add a new responsive screen for mobile devices"
+msgstr "Добавьте новый адаптивный экран для мобильных устройств"
+
+#: includes/maxbuttons-button.php:96 includes/maxbuttons-button.php:99
+msgid "Read our documentation"
+msgstr "Прочтите нашу документацию"
+
+#: includes/maxbuttons-button.php:98
+msgid "More on shortcodes, button sizes, mobile devices: "
+msgstr "Подробнее о шорткодах, размерах кнопок, мобильных устройствах: "
+
+#: includes/maxbuttons-button.php:94
+msgid "Create an %s Responsive Screen %s with the +Add button below. You can fully customize your look on mobile devices!"
+msgstr "Создайте %s адаптивный экран %s с помощью +Добавить кнопку ниже. Вы можете полностью настроить свой внешний вид на мобильных устройствах!"
+
+#: blocks/basic.php:372 classes/admin-class.php:388
+msgid "URL is download"
+msgstr "URL для загрузки"
+
+#: classes/maxbuttons-class.php:575
+msgid "Detected Errors:"
+msgstr "Обнаружены ошибки:"
+
+#: classes/maxbuttons-class.php:570
+msgid ""
+"MaxButtons has detected Javascript not loading as expected. Often this is caused by other plugins conflicting or crashing. %s\n"
+"\t\t\t\t\t- Disable other plugins and see if this error goes away %s\n"
+"\t\t\t\t\t- Check developer console (F12) on your browser to check which script is causing the issue %s\n"
+"\t\t\t\t\t- Contact our support %s\n"
+"\t\t\t\t"
+msgstr ""
+"MaxButtons обнаружил, что Javascript загружается не так, как ожидалось. Часто это вызвано конфликтом или сбоем других плагинов. %s\n"
+"\t\t\t\t\t- Отключите другие плагины и посмотрите, исчезнет ли эта ошибка %s\n"
+"\t\t\t\t\t- Проверьте консоль разработчика (F12) в вашем браузере, чтобы проверить, какой скрипт вызывает проблему %s\n"
+"\t\t\t\t\t- Свяжитесь с нашей службой поддержки %s"
+
+#: classes/maxbuttons-class.php:569
+msgid "Maxbuttons detected an Error"
+msgstr "MaxButtons обнаружил ошибку"
+
+#: classes/maxbuttons-admin-helper.php:327
+msgid "Send your suggestions to %s"
+msgstr "Отправьте свои предложения %s"
+
+#: classes/maxbuttons-admin-helper.php:326
+msgid "Is there a feature you would like for us to add to <b>MaxButtons</b>? <br> Let us know."
+msgstr "Есть ли функция, которую вы хотели бы добавить в <b>MaxButtons</b>?<br> Дайте нам знать."
+
+#: includes/maxbuttons-settings.php:147
+msgid "The button will resize to this amount of percentage of the screen width. Default 90%"
+msgstr "Кнопка будет изменять размер в процентах от ширины экрана. По умолчанию 90%"
+
+#: includes/maxbuttons-settings.php:144
+msgid "Auto button size on screen"
+msgstr "Авторазмер кнопки на экране"
+
+#: includes/maxbuttons-settings.php:132
+msgid "Auto font size reduction"
+msgstr "Автоуменьшение размера шрифта"
+
+#: maxbuttons.php:43
+msgid "MaxButtons requires at least PHP 7 . You are running version: %s "
+msgstr "MaxButtons требует как минимум PHP 7 . Вы используете версию: %s "
+
+#: classes/maxbuttons-class.php:561
+msgid "Color value"
+msgstr "Значение цвета"
+
+#: classes/maxbuttons-class.php:560
+msgid "Select Color"
+msgstr "Выбрать цвет"
+
+#: classes/maxbuttons-class.php:559
+msgid "Select default color"
+msgstr "Выбрать стандартный цвет"
+
+#: classes/maxbuttons-class.php:558
+msgid "Default"
+msgstr "По умолчанию"
+
+#: classes/maxbuttons-class.php:557
+msgid "Clear color"
+msgstr "Очистить цвет"
+
+#: includes/maxbuttons-settings.php:115
+msgid "Active when a button doesn't have any responsive screens. Autoresponsive makes the button smaller and relative to the screen on devices smaller than 480px. When enabled, it automatically applies this styling."
+msgstr "Активен, если у кнопки нет адаптивных экранов. Автоответчик делает кнопку меньше и относительно экрана на устройствах размером менее 480 пикселей. Если этот флажок установлен, этот стиль применяется автоматически."
+
+#: blocks/basic.php:627
+msgid "Using percentages makes the button size to the page element. The live preview can be unreliable"
+msgstr "Использование процентного соотношения приводит размер кнопки к размеру элемента страницы. Предварительный просмотр в реальном времени может быть ненадежным"
+
+#: blocks/basic.php:608
+msgid "Height Unit"
+msgstr "Единица высоты"
+
+#: blocks/basic.php:580 blocks/container.php:193
+msgid "Width Unit"
+msgstr "Единица ширины"
+
+#: blocks/basic.php:399
+msgid "Shortcode attribute: text"
+msgstr "Атрибут шорткода: текст"
+
+#: blocks/basic.php:327
+msgid "<strong>Tip: </strong> You don't need to copy buttons to change URL or Text. See the examples on top of page"
+msgstr "<strong>Совет: </strong> Вам не нужно копировать кнопки, чтобы изменить URL или текст. См. примеры в верхней части страницы"
+
+#: blocks/responsive.php:349
+msgid "See all features"
+msgstr "Посмотреть все возможности"
+
+#: blocks/responsive.php:346
+msgid "Google Fonts and Font-Awesome"
+msgstr "Google Fonts и Font-Awesome"
+
+#: blocks/responsive.php:345
+msgid "Effects"
+msgstr "Эффекты"
+
+#: blocks/responsive.php:343
+msgid "Infinite amount of screens"
+msgstr "Бесконечное количество экранов"
+
+#: blocks/responsive.php:341
+msgid "The best button editor for WordPress includes: "
+msgstr "Лучший редактор кнопок для WordPress включает: "
+
+#: blocks/responsive.php:340
+msgid "You already have %s screens. To add more responsive screens to your buttons, upgrade to MaxButtons PRO."
+msgstr "У вас уже есть %s экранов. Чтобы добавить больше отзывчивых экранов к вашим кнопкам, перейдите на MaxButtons PRO."
+
+#: blocks/responsive.php:339
+msgid "Save your settings first to remove the screen"
+msgstr "Сначала сохраните настройки, чтобы удалить экран"
+
+#: blocks/responsive.php:334
+msgid "Upgrade Today"
+msgstr "Обновить сегодня"
+
+#: blocks/responsive.php:333
+msgid "upgrade"
+msgstr "обновление"
+
+#: blocks/responsive.php:300
+msgid "Remove this screen"
+msgstr "Удалить этот экран"
+
+#: blocks/responsive.php:279
+msgid "Biggest screen size this screen will show. 0 for no maximum"
+msgstr "Самый большой размер экрана, отображаемый на этом экране. 0 без максимума"
+
+#: blocks/responsive.php:275
+msgid "Maximum Width"
+msgstr "Макс. ширина"
+
+#: blocks/responsive.php:268
+msgid "Smallest screen size this screen will show. 0 for all"
+msgstr "Наименьший размер экрана, который будет отображаться на этом экране. 0 для всех"
+
+#: blocks/responsive.php:263
+msgid "Minimum Width"
+msgstr "Миним. ширина"
+
+#: blocks/responsive.php:254
+msgid "Selecting a preset will overwrite screen settings below"
+msgstr "При выборе предустановки будут перезаписаны настройки экрана, указанные ниже"
+
+#: blocks/responsive.php:247
+msgid "Apply preset"
+msgstr "Применить предустановку"
+
+#: blocks/responsive.php:232
+msgid "Select a Preset"
+msgstr "Выбрать предустановку"
+
+#: blocks/responsive.php:218
+msgid "The internal name for this screen. [optional]"
+msgstr "Внутреннее название для этого экрана. [необязательно]"
+
+#: blocks/responsive.php:215
+msgid "Screen Name"
+msgstr "Название экрана"
+
+#: blocks/responsive.php:187
+msgid "responsive"
+msgstr "адаптивный"
+
+#: blocks/responsive.php:156
+msgid "No Preset"
+msgstr "Нет предустановки"
+
+#: blocks/responsive.php:151
+msgid "Old Phone (480px)"
+msgstr "Старый телефон (480px)"
+
+#: blocks/responsive.php:150
+msgid "Small screen (640px)"
+msgstr "Малый экран (640px)"
+
+#: blocks/responsive.php:149
+msgid "Medium Smartphone (768px)"
+msgstr "Средний смартфон (768px)"
+
+#: blocks/responsive.php:148
+msgid "Modern Smartphone (1080px)"
+msgstr "Современный смартфон (1080px)"
+
+#: views/modals/copy-modal.php:28
+msgid "All Options"
+msgstr "Все параметры"
+
+#: classes/screen.php:450
+msgid "Set width and height to use this responsive screen"
+msgstr "Задайте ширину и высоту для использования этого экрана"
+
+#: classes/screen.php:445
+msgid "Shows at screen size bigger than %s"
+msgstr "Показывает при размере экрана больше, чем %s"
+
+#: classes/screen.php:439
+msgid "Shows at screen size smaller than %s"
+msgstr "Показывает при размере экрана меньше %s"
+
+#: classes/screen.php:434
+msgid "Shows at screen size from %s to %s"
+msgstr "Показывает при размере экрана от %s до %s"
+
+#: classes/screen.php:423
+msgid "Your main button for all screens. "
+msgstr "Ваша главная кнопка для всех экранов. "
+
+#: includes/maxbuttons-button.php:147 includes/maxbuttons-button.php:152
+#: includes/maxbuttons-button.php:158 includes/maxbuttons-button.php:163
+msgid "auto"
+msgstr "авто"
+
+#: includes/maxbuttons-welcome.php:22
+msgid "You can use your button design many times. Even with a different text and link!"
+msgstr "Вы можете использовать свой дизайн кнопок много раз. Даже с другим текстом и ссылкой!"
+
+#: includes/maxbuttons-welcome.php:22
+msgid "Do Not Repeat!"
+msgstr "Не повторять!"
+
+#: includes/maxbuttons-welcome.php:20
+msgid "MaxButtons uses shortcodes. These are small snippets you can copy into your posts and pages. You will see a button in your post editor which will make this easier."
+msgstr "MaxButtons использует шорткоды. Это небольшие фрагменты, которые вы можете копировать в свои посты и страницы. В редакторе постов вы увидите кнопку, которая облегчит эту задачу."
+
+#: includes/maxbuttons-welcome.php:18
+msgid "Organize your Designs"
+msgstr "Организуйте свои проекты"
+
+#: includes/maxbuttons-settings.php:228
+msgid "In case you still have legacy responsive data ( before version 8 ) and this was not migrated for some reason.  <strong>Warning</strong> Create a database backup. Use at your own risk. "
+msgstr "Если у вас все еще есть устаревшие адаптивные данные (до версии 8), и они по какой-то причине не были перенесены. <strong> Предупреждение </strong>. Создайте резервную копию базы данных. Используйте на свой риск. "
+
+#: classes/maxbuttons-class.php:547
+msgid "Are you sure you want to remove this screen?"
+msgstr "Вы уверены, что хотите удалить этот экран?"
+
+#: classes/screen.php:72
+msgid "Main"
+msgstr "Основной"
+
+#: classes/maxbuttons-class.php:82
+msgid "Can't read directory. %s Reinstall the plugin or check directory permissions"
+msgstr "Невозможно прочитать каталог. %s Переустановите плагин или проверьте права доступа к каталогу"
+
+#: classes/maxbuttons-class.php:81
+msgid "Fatal Problem with MaxButtons"
+msgstr "Фатальная проблема с MaxButton"
+
+#: classes/controllers/listController.php:86
+msgid "Something went wrong with the form, nonce not verified"
+msgstr "Что-то пошло не так с формой, nonce не подтвержден"
+
+#: includes/maxbuttons-list.php:79
+msgid "Empty Trash"
+msgstr "Очистить корзину"
+
+#: includes/maxbuttons-list.php:79
+msgid "Permanently delete all buttons in trash. Are you sure?"
+msgstr "Безвозвратно удалить все кнопки в корзину. Вы уверены?"
+
+#: classes/controllers/listController.php:168
+msgid "Emptied Trash"
+msgstr "Корзина пуста"
+
+#: blocks/container.php:260
+msgid "Float can help to align the button and other content on the same line"
+msgstr "Float может помочь выровнять кнопку и другое содержимое на одной линии"
+
+#: blocks/container.php:157
+msgid "Creates a container around the button which pushes other content"
+msgstr "Создает контейнер вокруг кнопки, в который помещается другое содержимое"
+
+#: blocks/advanced.php:143
+msgid "Enabling the \"Use External CSS\" will stop loading any button styling. You will need to put the button style manually"
+msgstr "Включение опции \"Использовать внешний CSS\" прекратит загрузку стилей кнопок. Вам нужно будет установить стиль кнопки вручную"
+
+#: blocks/basic.php:575
+msgid "Width and Height are optional. When set to 0, button size will be determined by text size plus padding"
+msgstr "Ширина и высота являются необязательными. При значении 0 размер кнопки будет определяться размером текста плюс подложка"
+
+#: includes/maxbuttons-settings.php:174
+msgid "You can add link formats not regarded as \"safe\" by WordPress. Use this if links are removed or lose their protocol ( xx:// ). For instance: \"file,sms,skype\" ."
+msgstr "Вы можете добавить форматы ссылок, которые WordPress не считает «безопасными». Используйте это, если ссылки удалены или потеряли свой протокол ( xx:// ). Например: \"file,sms,skype\" ."
+
+#: classes/max-utils.php:200
+msgid "Desktop, > 1224px"
+msgstr "Компьютер, > 1224px"
+
+#: classes/max-utils.php:197
+msgid "Ipad (all) / Large phones (768px-1024px)"
+msgstr "Ipad (все )/большие телефоны (768px-1024px)"
+
+#: classes/max-utils.php:196
+msgid "Medium-size (smart)phone (480px-768px)"
+msgstr "Телефон среднего размера (смартфон) (480px-768px)"
+
+#: classes/max-utils.php:195
+msgid "Small phones (portrait), < 320px "
+msgstr "Маленькие телефоны (портрет), < 320px "
+
+#: classes/max-utils.php:193
+msgid "Small phones, < 480px"
+msgstr "Маленькие телефоны, < 480px"
+
+#: blocks/container.php:148
+msgid "container"
+msgstr "контейнер"
+
+#: blocks/border.php:119
+msgid "border"
+msgstr "граница"
+
+#: blocks/basic.php:265
+msgid "basic"
+msgstr "основной"
+
+#: blocks/advanced.php:107
+msgid "advanced"
+msgstr "дополнительно"
+
+#: blocks/gradient.php:57
+msgid "gradient-options"
+msgstr "параметры градиента"
+
+#: blocks/text.php:158
+msgid "shadow"
+msgstr "тень"
+
+#: blocks/basic.php:248
+msgid "Already used in : "
+msgstr "Уже используется в : "
+
+#: blocks/basic.php:247
+msgid "Button name already used. Using non-unique names with the shortcode can cause issues"
+msgstr "Название кнопки уже используется. Использование неуникальных названий в шорткоде может вызвать проблемы"
+
+#: includes/maxbuttons-settings.php:30
+msgid "MaxButtons User Level for editing buttons"
+msgstr "Уровень пользователя MaxButtons для изменения кнопок"
+
+#: blocks/basic.php:317
+msgid "Select Site Content"
+msgstr "Выбрать содержимое сайта"
+
+#: includes/maxbuttons-support.php:28
+msgid "%sSupport Forums%s."
+msgstr "%sФорумы поддержки%s."
+
+#: includes/maxbuttons-button.php:84
+msgid "More tips"
+msgstr "Больше советов"
+
+#: includes/maxbuttons-button.php:59
+msgid "How to make your life easier"
+msgstr "Как облегчить свою жизнь"
+
+#: classes/maxbuttons-class.php:668
+msgid "Use this Button"
+msgstr "Используйте эту кнопку"
+
+#: classes/admin-class.php:348
+msgid "More Options"
+msgstr "Дополнительные параметры"
+
+#: classes/admin-class.php:315
+msgid "Change the options to add shortcode attributes. "
+msgstr "Измените параметры, чтобы добавить атрибуты шорткода. "
+
+#: classes/admin-class.php:313
+msgid "Shortcode Options"
+msgstr "Параметры шорткода"
+
+#: includes/social-share.php:76
+msgid "Check plugin on WordPress site"
+msgstr "Проверить плагин на сайте WordPress"
+
+#: includes/social-share.php:75
+msgid "Install for Free!"
+msgstr "Установить бесплатно!"
+
+#: includes/social-share.php:69
+msgid "Add custom buttons via MaxButtons"
+msgstr "Добавить пользовательские кнопки с помощью MaxButtons"
+
+#: includes/social-share.php:68
+msgid "More options for customization"
+msgstr "Больше вариантов для настройки"
+
+#: includes/social-share.php:67
+msgid "Customize Twitter hashtag per post for maximum SEO value"
+msgstr "Настройка хештега Twitter для каждой записи для макс. значения SEO"
+
+#: includes/social-share.php:64
+msgid "Only with MaxButton PRO:"
+msgstr "Только с MaxButton PRO:"
+
+#: includes/social-share.php:60
+msgid "Customizable layout"
+msgstr "Настраиваемый макет"
+
+#: includes/social-share.php:46
+msgid ""
+"Many networks: Facebook,\n"
+"\t\t    Twitter,\n"
+"\t\t    Instagram,\n"
+"\t\t    Pinterest,\n"
+"\t\t    Linkedin,\n"
+"\t\t    Google+,\n"
+"\t\t    YouTube,\n"
+"\t\t    Pinterest,\n"
+"\t\t    VKontakte,\n"
+"\t\t    StumbleUpon,\n"
+"\t\t    Reddit,\n"
+"\t\t    Whatsapp,\n"
+"\t\t    Buffer"
+msgstr ""
+"Множество сетей: Facebook,\n"
+"\t\t    Twitter,\n"
+"\t\t    Instagram,\n"
+"\t\t    Pinterest,\n"
+"\t\t    Linkedin,\n"
+"\t\t    Google+,\n"
+"\t\t    YouTube,\n"
+"\t\t    Pinterest,\n"
+"\t\t    VKontakte,\n"
+"\t\t    StumbleUpon,\n"
+"\t\t    Reddit,\n"
+"\t\t    Whatsapp,\n"
+"\t\t    Buffer"
+
+#: includes/social-share.php:45
+msgid "Presets to get going quickly"
+msgstr "Предустановки для быстрого начала работы"
+
+#: includes/social-share.php:43
+msgid "Features"
+msgstr "Функционал"
+
+#: includes/social-share.php:34
+msgid "We created a brand new plugin to make your Social Share experiences better."
+msgstr "Мы создали совершенно новый плагин, чтобы улучшить ваш обмен в социальных сетях."
+
+#: includes/social-share.php:32
+msgid "MaxButtons Share Buttons"
+msgstr "Кнопки Поделиться MaxButtons"
+
+#: includes/social-share.php:17
+msgid "WordPress Share Buttons"
+msgstr "Кнопки Поделиться (share) в WordPress"
+
+#: includes/maxbuttons-welcome.php:13
+msgid "Support Forums"
+msgstr "Форумы поддержки"
+
+#: includes/maxbuttons-welcome.php:12
+msgid "Creating buttons with MaxButtons"
+msgstr "Создание кнопок с помощью MaxButtons"
+
+#: includes/maxbuttons-welcome.php:10
+msgid "Some links that may be helpful:"
+msgstr "Некоторые ссылки, которые могут быть полезны:"
+
+#: includes/maxbuttons-welcome.php:7
+msgid "To get you started, %s Create your first button %s"
+msgstr "Чтобы начать работу, %s Создайте свою первую кнопку %s"
+
+#: includes/maxbuttons-welcome.php:5
+msgid "Welcome to MaxButtons!"
+msgstr "Добро пожаловать в MaxButtons!"
+
+#: classes/maxbuttons-class.php:358
+msgid "Share Buttons"
+msgstr "Кнопки \"Поделиться\""
+
+#: classes/maxbuttons-class.php:357
+msgid "MaxButtons: Share Buttons"
+msgstr "MaxButtons: кнопки Поделиться"
+
+#: includes/maxbuttons-settings.php:173
+msgid "Separate multiple protocols with comma"
+msgstr "Разделять несколько протоколов запятыми"
+
+#: includes/maxbuttons-settings.php:172
+msgid "Additional allowed link protocols"
+msgstr "Дополнительные разрешенные протоколы соединения"
+
+#: includes/maxbuttons-button.php:75
+msgid "Same button with different text"
+msgstr "Одна и та же кнопка с разным текстом"
+
+#: includes/maxbuttons-button.php:71
+msgid "Same button with different link"
+msgstr "Одна и та же кнопка с другой ссылкой"
+
+#: includes/maxbuttons-button.php:56
+msgid "Shortcode options can make using MaxButtons much easier! Check all possible options:"
+msgstr "Опции шорткодов могут значительно упростить использование MaxButton! Проверьте все возможные варианты:"
+
+#: classes/admin-class.php:31
+msgid "[Site Default]"
+msgstr "[Сайт по умолчанию]"
+
+#: blocks/basic.php:383 classes/admin-class.php:404
+msgid "Button Tooltip"
+msgstr "Подсказка кнопки"
+
+#: blocks/basic.php:270 blocks/border.php:114 blocks/gradient.php:82
+#: blocks/text.php:154
+msgid "Copy Color to other field"
+msgstr "Копировать цвет в другое поле"
+
+#: blocks/basic.php:269 blocks/border.php:113 blocks/gradient.php:81
+#: blocks/text.php:153
+msgid "Replace color from other field"
+msgstr "Заменить цвет из другого поля"
+
+#: includes/maxbuttons-settings.php:100
+msgid ""
+"A lot of modern themes render their templates as \"border box\". If you notice that padding\n"
+"                     \t\t\t\t\t\t   and borders looks differently on the site compared to preview, try to turn this option on"
+msgstr ""
+"Многие современные темы отображают свои шаблоны как \"border box\". Если вы заметили, что подложка\n"
+"                     \t\t\t\t\t\t   и границы выглядят по-другому на сайте по сравнению с предварительным просмотром, попробуйте включить эту опцию"
+
+#: includes/maxbuttons-settings.php:99
+msgid "Preview in Border Box mode"
+msgstr "Предварительный просмотр в режиме Border Box"
+
+#: includes/maxbuttons-no-simplexml.php:27
+msgid "SimpleXML installation"
+msgstr "Установка SimpleXML"
+
+#: includes/maxbuttons-no-simplexml.php:23
+msgid ""
+"To enable this module please install the SimpleXML PHP module. If you don't know how, ask your support from your\n"
+"\thosting provider"
+msgstr ""
+"Чтобы включить этот модуль, установите модуль SimpleXML PHP. Если вы не знаете, как это сделать, попросите поддержки у вашего\n"
+"хостинг-провайдер"
+
+#: includes/maxbuttons-no-simplexml.php:21
+msgid "PHP Module SimpleXML not found. This module will not work"
+msgstr "Модуль PHP SimpleXML не найден. Этот модуль не будет работать"
+
+#: includes/maxbuttons-no-simplexml.php:13
+msgid "Packs"
+msgstr "Пакеты"
+
+#: includes/maxbuttons-no-simplexml.php:6
+msgid "Enable SimpleXML"
+msgstr "Включить SimpleXML"
+
+#: includes/maxbuttons-settings.php:75
+msgid "Minify Button CSS"
+msgstr "Минифицировать CSS кнопки"
+
+#: includes/maxbuttons-settings.php:74
+msgid "Recommended, only turn off in case of issues. You will have to clear your cache after changing this setting"
+msgstr "Рекомендуется, отключать только в случае проблем. После изменения этой настройки необходимо очистить кэш"
+
+#: includes/maxbuttons-settings.php:55
+msgid "Hide \"add button\" in post editor toolbar"
+msgstr "Скрыть \"кнопку добавления\" на панели инструментов редактора сообщений"
+
+#: views/modals/copy-modal.php:24
+msgid "Both"
+msgstr "Оба"
+
+#: views/modals/copy-modal.php:11
+msgid "You probably don't want to copy your button!"
+msgstr "Вероятно, вы не хотите копировать свою кнопку!"
+
+#: views/modals/copy-modal.php:33
+msgid "Your button has not been saved. Any changes will be lost!"
+msgstr "Ваша кнопка не была сохранена. Любые изменения будут потеряны!"
+
+#: views/modals/trash-modal.php:7
+msgid "The button will be moved to trash. It can be recovered from the trash bin later. Continue?"
+msgstr "Кнопка будет перемещена в корзину. Позже ее можно будет восстановить из корзины. Продолжить?"
+
+#: views/modals/trash-modal.php:6
+msgid "Trash button"
+msgstr "Кнопка Корзина"
+
+#: classes/maxbuttons-class.php:678
+msgid "Add to Editor"
+msgstr "Добавить в редактор"
+
+#: classes/maxbuttons-class.php:677
+msgid "If you want to change the URL or Text of the Button, enter the appropiate field. If you want to use the button values, just click Add to editor"
+msgstr "Если вы хотите изменить URL или текст кнопки, введите соответствующее поле. Если вы хотите использовать значения кнопки, просто нажмите Добавить в редактор"
+
+#: classes/admin-class.php:336 classes/maxbuttons-class.php:676
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: classes/admin-class.php:323 classes/maxbuttons-class.php:675
+msgid "Button URL"
+msgstr "URL кнопки"
+
+#: classes/admin-class.php:222
+msgid "Click on a button to select it and add the shortcode to the editor"
+msgstr "Нажмите на кнопку, чтобы выбрать ее и добавить шорткод в редактор"
+
+#: blocks/gradient.php:85
+msgid "Use Gradients"
+msgstr "Используйте градиенты"
+
+#: blocks/border.php:273
+msgid "Shadow Spread"
+msgstr "Отбрасываемая тень"
+
+#: blocks/gradient.php:151
+msgid "Background hover"
+msgstr "Фон при наведении"
+
+#: blocks/gradient.php:121
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: includes/maxbuttons-settings.php:87
+msgid "Hide description field"
+msgstr "Скрыть поле описания"
+
+#: blocks/container.php:218
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: blocks/container.php:174
+msgid "Center the container"
+msgstr "Выровнять контейнер по центру"
+
+#: blocks/advanced.php:153
+msgid "Warning: This will remove all styling of the buttons!"
+msgstr "Внимание: Это удалит все стилизации кнопок!"
+
+#: blocks/text.php:198
+msgid "Shadow Color"
+msgstr "Цвет тени"
+
+#: blocks/gradient.php:202
+msgid "Hover opacity"
+msgstr "Прозрачность при наведении"
+
+#: blocks/gradient.php:179
+msgid "Normal Opacity"
+msgstr "Нормальная прозрачность"
+
+#: blocks/gradient.php:109
+msgid "End"
+msgstr "Конец"
+
+#: blocks/gradient.php:102
+msgid "Start"
+msgstr "Старт"
+
+#: blocks/gradient.php:58
+msgid "Background"
+msgstr "Фон"
+
+#: blocks/border.php:285
+msgid "Border Shadow Color"
+msgstr "Цвет тени границы"
+
+#: blocks/border.php:264 blocks/text.php:185
+msgid "Shadow Blur"
+msgstr "Размытие тени"
+
+#: blocks/border.php:223
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: blocks/text.php:159
+msgid "Text Shadow"
+msgstr "Тень текста"
+
+#: blocks/basic.php:538
+msgid "Text Color Hover"
+msgstr "Цвет текста при наведении"
+
+#: blocks/basic.php:525
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: blocks/basic.php:276 blocks/basic.php:281
+msgid "Button Name"
+msgstr "Название кнопки"
+
+#: blocks/basic.php:497
+msgid "Padding Right"
+msgstr "Внутренний отступ справа"
+
+#: blocks/basic.php:515
+msgid "Padding Left"
+msgstr "Внутренний отступ слева"
+
+#: blocks/basic.php:506
+msgid "Padding Bottom"
+msgstr "Внутренний отступ снизу"
+
+#: blocks/basic.php:488
+msgid "Padding Top"
+msgstr "Внутренний отступ сверху"
+
+#: blocks/basic.php:473
+msgid "Align right"
+msgstr "Прижать вправо"
+
+#: blocks/basic.php:463
+msgid "Align center"
+msgstr "Выровнять по центру"
+
+#: blocks/basic.php:453
+msgid "Align left"
+msgstr "Прижать влево"
+
+#: blocks/basic.php:443
+msgid "Italic"
+msgstr "Курсив"
+
+#: blocks/basic.php:432
+msgid "Bold"
+msgstr "Жирный"
+
+#: views/modals/copy-modal.php:35
+msgid "Do you want to copy this button to a new button?"
+msgstr "Вы хотите скопировать эту кнопку в новую кнопку?"
+
+#: views/modals/copy-modal.php:7
+msgid "Copy this button"
+msgstr "Скопируйте эту кнопку"
+
+#: blocks/advanced.php:201
+msgid "Close"
+msgstr "Время закрытия"
+
+#: blocks/advanced.php:124 classes/admin-class.php:421
+msgid "Extra classes"
+msgstr "Дополнительные классы"
+
+#: blocks/advanced.php:126
+msgid "Useful for custom code or other plugins who target classes"
+msgstr "Полезно для пользовательского кода или других плагинов, предназначенных для классов"
+
+#: blocks/advanced.php:134
+msgid "Custom Rel Tag"
+msgstr "Пользовательский тег Rel"
+
+#: blocks/advanced.php:136
+msgid "Useful when button is targeting lightbox and/or popup plugins that use this method"
+msgstr "Полезно, когда кнопка нацелена на плагины lightbox и/или popup, которые используют этот метод"
+
+#: blocks/basic.php:304
+msgid "http://"
+msgstr "http://"
+
+#: blocks/text.php:80
+msgid "YOUR TEXT"
+msgstr "ВАШ ТЕКСТ"
+
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:46
+msgid "Open in a new window [optional]"
+msgstr "Открыть в новом окне [необязательно]"
+
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:40
+msgid "Destination URL [optional]"
+msgstr "URL назначения [необязательно]"
+
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:35
+msgid "Button text [optional]"
+msgstr "Текст кнопки [необязательно]"
+
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:29
+msgid "Select a maxbutton"
+msgstr "Выбрать maxbutton"
+
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:20
+msgid "MaxButtons for the page builder."
+msgstr "MaxButton для конструктора страниц."
+
+#: assets/integrations/siteorigins_builder/fields/maxbutton.class.php:117
+msgid "Selected Button"
+msgstr "Выбранная кнопка"
+
+#: assets/integrations/siteorigins_builder/fields/maxbutton.class.php:113
+msgid "Select a Button"
+msgstr "Выбрать кнопку"
+
+#: assets/integrations/siteorigins_builder/fields/maxbutton.class.php:69
+msgid "Set Media"
+msgstr "Установить медиа"
+
+#: assets/integrations/siteorigins_builder/fields/maxbutton.class.php:68
+msgid "Choose Maxbutton"
+msgstr "Выбрать Maxbutton"
+
+#: includes/maxbuttons-list.php:170
+msgid "or"
+msgstr "или"
+
+#: classes/maxbuttons-admin-helper.php:359
+msgid "Get Started"
+msgstr "Начать работу"
+
+#: classes/maxbuttons-admin-helper.php:356
+msgid "The Max Foundry Team"
+msgstr "Команда Max Foundry"
+
+#: classes/maxbuttons-admin-helper.php:354
+msgid "Click Get Started and we will have your social media icons up and running on your site super quick!"
+msgstr "Нажмите «Начать», и мы очень быстро разместим на вашем сайте значки соцсетей!"
+
+#: classes/maxbuttons-admin-helper.php:352
+msgid "By upgrading to %sMaxButtons Pro%s you get an 13 additional Social Sharing button sets along with the ability to build your own Social Sharing sets using your own icons, using Google Fonts in your Social Sharing buttons along with all of the features that come with our premium product."
+msgstr "При переходе на %sMaxButtons Pro%s вы получаете 13 дополнительных наборов кнопок социального обмена, а также возможность создавать свои собственные наборы социального обмена с использованием собственных иконок, использовать шрифты Google в кнопках социального обмена, а также все возможности, которые предоставляются нашим премиум-продуктом."
+
+#: classes/maxbuttons-admin-helper.php:350
+msgid "You build your Social Sharing set by selecting the buttons you want in your collection.  Then click the Add selected buttons button in the lower right.  Aside from being included in your collection your selected buttons are now included with all of the other buttons on your site.  You can edit those buttons by going to the Buttons section in the Nav bar on the left."
+msgstr "Вы создаете свой набор Social Sharing, выбирая кнопки, которые вы хотите включить в свою коллекцию.  Затем нажмите кнопку Добавить выбранные кнопки в правом нижнем углу.  Помимо того, что выбранные кнопки будут включены в вашу коллекцию, теперь они будут включены во все остальные кнопки на вашем сайте.  Вы можете редактировать эти кнопки, перейдя в раздел \"Кнопки\" на панели навигации слева."
+
+#: classes/maxbuttons-admin-helper.php:348
+msgid "After clicking the Get Started link below you’ll come to the ‘Select your buttons’ page.  Here you will see the listing of free Social Sharing sets plus all of the buttons that you have on your site can be used in the collection that you are putting together."
+msgstr "После нажатия на ссылку \"Начать работу\" ниже вы попадете на страницу «Выберите кнопки». Здесь вы увидите список бесплатных наборов для совместного использования в социальных сетях, а также все кнопки на вашем сайте, которые можно использовать в собираемой вами коллекции."
+
+#: classes/maxbuttons-admin-helper.php:346
+msgid "MaxButtons comes with 5 terrific free sets of Social Sharing buttons for you to use: Notched Box Social Share, Modern Social Share, Round White Social Share, Social Share Squares, Minimalistic Share Buttons.  You can also add any other button you have made to a collection of Social Sharing buttons."
+msgstr "MaxButtons поставляется с 5 потрясающими бесплатными наборами кнопок социального обмена, которые вы можете использовать: Notched Box Social Share, Modern Social Share, Round White Social Share, Social Share Squares, Minimalistic Share Buttons.  Вы также можете добавить любую другую сделанную вами кнопку в коллекцию кнопок социального обмена."
+
+#: classes/maxbuttons-admin-helper.php:345
+msgid "Social Sharing sets are collections of buttons that are primarily used to promote your social media profiles on your site."
+msgstr "Наборы Social Sharing - это коллекции кнопок, которые в основном используются для продвижения профилей социальных сетей на вашем сайте."
+
+#: classes/maxbuttons-admin-helper.php:344
+msgid "Welcome to MaxButtons Social Sharing"
+msgstr "Добро пожаловать на MaxButtons Social Sharing"
+
+#: classes/maxbuttons-class.php:623
+msgid "OK"
+msgstr "Выбор"
+
+#: classes/maxbuttons-class.php:556
+msgid "Clear"
+msgstr "Очистить"
+
+#: classes/maxbuttons-class.php:645
+msgid "You have unsaved data, are you sure you want to leave the page?"
+msgstr "У вас есть несохраненные данные, вы уверены, что хотите покинуть страницу?"
+
+#: classes/max-utils.php:38
+msgid "Nonce not verified ("
+msgstr "Nonce не проверен ("
+
+#: blocks/meta.php:87
+msgid "Meta"
+msgstr "Мета"
+
+#: blocks/responsive.php:344
+msgid "Icons and Images"
+msgstr "Значки и изображения"
+
+#: includes/maxbuttons-settings.php:301
+msgid "I need to bulk edit something"
+msgstr "Мне нужно что-то изменить"
+
+#: includes/maxbuttons-settings.php:292
+msgid "I understand that this may destroy all my buttons"
+msgstr "Я понимаю, что это может уничтожить все мои кнопки"
+
+#: includes/maxbuttons-settings.php:289 includes/maxbuttons-settings.php:295
+msgid "Replace"
+msgstr "Заменить"
+
+#: includes/maxbuttons-settings.php:288
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/maxbuttons-settings.php:286
+msgid "Field"
+msgstr "Поле"
+
+#: includes/maxbuttons-settings.php:284
+msgid "Using Bulk editor MAY and probably WILL destroy your buttons. In case you wish to prevent this - please BACKUP all your buttons before proceeding!"
+msgstr "Использование редактора Bulk МОЖЕТ и, вероятно, БУДЕТ уничтожать ваши кнопки. В случае, если вы хотите предотвратить это - пожалуйста, сделайте резервную копию всех ваших кнопок перед началом работы!"
+
+#: includes/maxbuttons-settings.php:281
+msgid "Bulk edit"
+msgstr "Массовое редактирование"
+
+#: classes/admin-class.php:233
+msgid "Click %shere%s to add one"
+msgstr "Щелкните %sздесь%s, чтобы добавить один"
+
+#: classes/admin-class.php:232
+msgid "You didn't create any buttons yet!"
+msgstr "Вы еще не создали ни одной кнопки!"
+
+#: includes/maxbuttons-button.php:108
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/maxbuttons-button.php:89
+msgid "By using this syntax when you edit and save your button it will be changed everywhere it is used on your site. If you delete the button and create a new one with the same name the new button will be used on your site. Easy!"
+msgstr "При использовании этого синтаксиса при редактировании и сохранении кнопки она будет изменена везде, где она используется на вашем сайте. Если вы удалите кнопку и создадите новую с тем же именем, на вашем сайте будет использоваться новая кнопка. Просто!"
+
+#: includes/maxbuttons-button.php:53
+msgid "To use this button, place the following shortcode anywhere you want it to appear in your site content:"
+msgstr "Чтобы использовать эту кнопку, поместите следующий шорткод в любом месте, где вы хотите, чтобы она появилась в содержимом вашего сайта:"
+
+#. Author URI of the plugin
+#: maxbuttons.php
+msgid "http://maxfoundry.com"
+msgstr "http://maxfoundry.com"
+
+#. Author of the plugin
+#: maxbuttons.php
+msgid "Max Foundry"
+msgstr "Max Foundry"
+
+#. Description of the plugin
+#: maxbuttons.php
+msgid "The best WordPress button generator. This is the free version; the Pro version <a href=\"http://maxbuttons.com/?ref=mbfree\">can be found here</a>."
+msgstr "Лучший генератор кнопок WordPress. Это бесплатная версия; Pro-версию <a href=\"http://maxbuttons.com/?ref=mbfree\">можно найти здесь</a>."
+
+#. Plugin URI of the plugin
+#: maxbuttons.php
+msgid "http://maxbuttons.com"
+msgstr "http://maxbuttons.com"
+
+#: maxbuttons.php:27
+msgid "Already found an instance of MaxButtons running. Please check if you are trying to activate two MaxButtons plugins and deactivate one. "
+msgstr "Уже обнаружен запущенный экземпляр MaxButtons. Проверьте, не пытаетесь ли вы активировать два плагина MaxButtons и деактивируйте один. "
+
+#: includes/maxbuttons-support.php:32
+msgid "You may be asked to provide the information below to help troubleshoot your issue."
+msgstr "Вас могут попросить предоставить приведенную ниже информацию, чтобы помочь в устранении неполадок."
+
+#: includes/maxbuttons-support.php:19
+msgid "Go to support"
+msgstr "Перейти к поддержке"
+
+#: includes/maxbuttons-settings.php:248
+msgid "Change MaxButtons Table To UTF8"
+msgstr "Изменить таблицу MaxButton на UTF8"
+
+#: includes/maxbuttons-settings.php:244
+msgid "The button below should help fix the \"foreign character issue\" some people experience when using MaxButtons. If you use foreign characters in your buttons and after saving see ????, use this button."
+msgstr "Кнопка ниже поможет устранить \"проблему с иностранными символами\", с которой сталкиваются некоторые пользователи при использовании MaxButtons. Если вы используете иностранные символы в своих кнопках и после сохранения видите ????, используйте эту кнопку."
+
+#: includes/maxbuttons-settings.php:242
+msgid "WARNING: We strongly recommend backing up your database before altering the charset of the MaxButtons table in your WordPress database."
+msgstr "ПРЕДУПРЕЖДЕНИЕ: Мы настоятельно рекомендуем создать резервную копию вашей базы данных, прежде чем изменять charset таблицы MaxButtons в вашей базе данных WordPress."
+
+#: includes/maxbuttons-settings.php:239
+msgid "UTF8 Table Fix"
+msgstr "Исправление таблицы UTF8"
+
+#: includes/maxbuttons-settings.php:215
+msgid "Remigrate"
+msgstr "Повторно мигрировать"
+
+#: includes/maxbuttons-settings.php:214
+msgid "In case the upgrade functionality failed to move your old buttons from MaxButtons before version 3, you can do so here manually. <strong>Attention</strong>  The new database table (maxbuttonsv3) *must* be empty, and the old database table *must* contain buttons otherwise this will not run. Run this <strong>at your own risk</strong> - it is strongly advised to make a backup before doing so."
+msgstr "Если функция обновления не смогла переместить ваши старые кнопки из MaxButtons до версии 3, вы можете сделать это здесь вручную. <strong> Внимание </strong>. Новая таблица базы данных (maxbuttonsv3) * должна * быть пустой, а старая таблица базы данных * должна * содержать кнопки, иначе она не будет запущена. Запустите это <strong> на свой страх и риск </strong> - перед этим настоятельно рекомендуется сделать резервную копию."
+
+#: includes/maxbuttons-settings.php:213
+msgid "Retry Database migration"
+msgstr "Повторная миграция базы данных"
+
+#: includes/maxbuttons-settings.php:196
+msgid "Reset Cache"
+msgstr "Сброс кэша"
+
+#: includes/maxbuttons-settings.php:194
+msgid ""
+"Maxbuttons caches the style output allowing for lightning fast display of your buttons. In the event\n"
+"        \t\t\tthis cache needs to be flushed and rebuilt you can reset the cache here."
+msgstr ""
+"Maxbuttons кэширует вывод стилей, обеспечивая молниеносное отображение кнопок. В случае, если\n"
+"        \t\t\tэтот кэш необходимо очистить и восстановить, вы можете сбросить его здесь."
+
+#: includes/maxbuttons-settings.php:192
+msgid "Clear button cache"
+msgstr "Очистить кэш кнопки"
+
+#: includes/maxbuttons-settings.php:40
+msgid "For more details on user roles and permissions, click %s here%s."
+msgstr "Для получения более подробной информации о ролях и разрешениях пользователей нажмите %s здесь%s."
+
+#: blocks/responsive.php:348 includes/maxbuttons-pro.php:16
+msgid "Buy Now"
+msgstr "Купить сейчас"
+
+#: classes/maxbuttons-class.php:624 classes/maxbuttons-class.php:671
+#: views/modals/copy-modal.php:41
+msgid "Cancel"
+msgstr "Отмена"
+
+#: classes/maxbuttons-class.php:669
+msgid "Loading your buttons"
+msgstr "Загрузка ваших кнопок"
+
+#: classes/maxbuttons-class.php:670
+msgid "Click on a button from the list below to place the button shortcode in the editor."
+msgstr "Нажмите кнопку из списка ниже, чтобы разместить шорткод кнопки в редакторе."
+
+#: classes/maxbuttons-class.php:667
+msgid "Insert Button into Editor"
+msgstr "Вставить кнопку в редактор"
+
+#: includes/maxbuttons-list.php:146
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/maxbuttons-list.php:9
+msgid "Overview"
+msgstr "Обзор"
+
+#: classes/controllers/listController.php:107
+msgid " buttons to the trash."
+msgstr " кнопки в корзину."
+
+#: classes/controllers/listController.php:107
+msgid "Moved "
+msgstr "Перемещён "
+
+#: classes/controllers/listController.php:103
+#: classes/controllers/listController.php:155
+msgid "Moved 1 button to the trash."
+msgstr "1 кнопка перемещена в корзину."
+
+#: includes/maxbuttons-list.php:121
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/maxbuttons-list.php:114
+msgid "Name and Description"
+msgstr "Название и описание"
+
+#: includes/maxbuttons-list.php:76
+msgid "Apply"
+msgstr "Принять"
+
+#: includes/maxbuttons-list.php:73 includes/maxbuttons-list.php:159
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: includes/maxbuttons-list.php:72 includes/maxbuttons-list.php:157
+msgid "Restore"
+msgstr "Восстановить"
+
+#: includes/maxbuttons-list.php:66
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: includes/maxbuttons-list.php:32 includes/maxbuttons-list.php:37
+msgid "Trash"
+msgstr "Корзина"
+
+#: includes/maxbuttons-list.php:31 includes/maxbuttons-list.php:36
+msgid "All"
+msgstr "Все"
+
+#: classes/controllers/listController.php:146
+msgid "Deleted "
+msgstr "Удалено "
+
+#: classes/controllers/listController.php:142
+#: classes/controllers/listController.php:163
+msgid "Deleted 1 button."
+msgstr "Удалена одна кнопка."
+
+#: classes/controllers/listController.php:127
+#: classes/controllers/listController.php:146
+msgid " buttons."
+msgstr " кнопки."
+
+#: classes/controllers/listController.php:127
+msgid "Restored "
+msgstr "Восстановлено "
+
+#: classes/controllers/listController.php:123
+#: classes/controllers/listController.php:159
+msgid "Restored 1 button."
+msgstr "Восстановлена кнопка 1."
+
+#: includes/maxbuttons-button.php:195
+msgid "Change this color to see your button on a different background."
+msgstr "Измените этот цвет, чтобы увидеть кнопку на другом фоне."
+
+#: includes/maxbuttons-button.php:171
+msgid "The top is the normal button, the bottom one is the hover."
+msgstr "Верхняя - обычная кнопка, нижняя - при наведении."
+
+#: includes/maxbuttons-button.php:85
+msgid "If you use this button on a static page, on multiple pages, or upload your theme to another WordPress installation choose an unique name and use "
+msgstr "Если вы используете эту кнопку на статической странице, на нескольких страницах или если вы загружаете свою тему в другую установку WordPress, выберите уникальное имя и используйте "
+
+#: includes/maxbuttons-button.php:78
+msgid "All possible shortcode options"
+msgstr "Все возможные варианты шорткодов"
+
+#: views/modals/copy-modal.php:20
+msgid "Use the same button but change the text"
+msgstr "Используйте ту же кнопку, но измените текст"
+
+#: views/modals/copy-modal.php:16
+msgid "Add the same button with different link"
+msgstr "Добавьте ту же кнопку с другой ссылкой"
+
+#: includes/maxbuttons-button.php:67
+msgid "Add a button by using the button name"
+msgstr "Добавьте кнопку, используя имя кнопки"
+
+#: classes/maxbuttons-class.php:622 views/modals/delete-modal.php:12
+#: views/modals/trash-modal.php:12
+msgid "No"
+msgstr "Нет"
+
+#: classes/maxbuttons-class.php:621 views/modals/delete-modal.php:10
+#: views/modals/trash-modal.php:10
+msgid "Yes"
+msgstr "Да"
+
+#: views/modals/delete-modal.php:7
+msgid "You are about to permanently remove this button. Are you sure?"
+msgstr "Вы собираетесь навсегда удалить эту кнопку. Вы уверены?"
+
+#: views/modals/delete-modal.php:6
+msgid "Removing button"
+msgstr "Кнопка удаления"
+
+#: classes/controller.php:104
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/controller.php:103 includes/maxbuttons-list.php:69
+msgid "Move to Trash"
+msgstr "Переместить в корзину"
+
+#: classes/controller.php:101 views/modals/copy-modal.php:39
+msgid "Copy"
+msgstr "Копировать"
+
+#: classes/controller.php:100
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/maxbuttons-button.php:11
+msgid "Button editor"
+msgstr "Редактор кнопки"
+
+#: classes/controllers/editorController.php:56
+msgid "MaxButtons could not find this button in the database. It might not be possible to save this button! Please check your database or contact support! "
+msgstr "MaxButtons не может найти эту кнопку в базе данных. Возможно, эту кнопку не удалось сохранить! Проверьте свою базу данных или обратитесь в службу поддержки! "
+
+#: classes/controllers/editorController.php:48
+msgid "Maxbuttons button id is zero. Your data is not saved correctly! Please check your database."
+msgstr "ID кнопки Maxbuttons равен нулю. Данные сохранены неправильно! Проверьте базу данных."
+
+#: classes/controllers/editorController.php:159
+msgid "Maxbuttons Error: Button id should never be zero"
+msgstr "Ошибка MaxButtons: ID кнопки никогда не должен быть нулевым"
+
+#: classes/maxbuttons-admin-helper.php:292
+msgid "Go to the last page"
+msgstr "Перейти на последнюю страницу"
+
+#: classes/maxbuttons-admin-helper.php:286
+msgid "Go to the next page"
+msgstr "Перейти на следующую страницу"
+
+#: classes/maxbuttons-admin-helper.php:280
+msgid "of"
+msgstr "из"
+
+#: classes/maxbuttons-admin-helper.php:277
+msgid "Go to the previous page"
+msgstr "Перейти на предыдущую страницу"
+
+#: classes/maxbuttons-admin-helper.php:271
+msgid "Go to the first page"
+msgstr "Перейти на первую страницу"
+
+#: classes/maxbuttons-admin-helper.php:28
+msgid "Upgrade to MaxButtons Pro today!  %sClick Here%s"
+msgstr "Перейдите на MaxButtons Pro уже сегодня!  %sНажмите здесь%s"
+
+#: blocks/border.php:110
+msgid "solid"
+msgstr "сплошной"
+
+#: blocks/border.php:107
+msgid "inset"
+msgstr "вставка"
+
+#: blocks/border.php:105
+msgid "double"
+msgstr "двойной"
+
+#: blocks/border.php:104
+msgid "dotted"
+msgstr "точечный пунктир"
+
+#: blocks/border.php:103
+msgid "dashed"
+msgstr "пунктирная"
+
+#: includes/admin_header.php:15
+msgid "MaxButtons:"
+msgstr "MaxButtons:"
+
+#: classes/maxbuttons-class.php:715
+msgid "Add Button"
+msgstr "Добавить кнопку"
+
+#: classes/maxbuttons-class.php:808
+msgid "%sUpgrade to Pro Version%s"
+msgstr "%sОбновление до версии Pro%s"
+
+#: classes/maxbuttons-class.php:672
+msgid "Select a MaxButton"
+msgstr "Выбрать MaxButton"
+
+#: classes/maxbuttons-admin-helper.php:48 classes/maxbuttons-class.php:350
+#: includes/maxbuttons-support.php:18
+msgid "Support"
+msgstr "Поддержка"
+
+#: classes/maxbuttons-class.php:349
+msgid "MaxButtons: Support"
+msgstr "MaxButtons: поддержка"
+
+#: classes/maxbuttons-admin-helper.php:44 classes/maxbuttons-class.php:343
+#: includes/maxbuttons-settings.php:10 includes/maxbuttons-settings.php:20
+#: includes/maxbuttons-settings.php:23
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/maxbuttons-class.php:342
+msgid "MaxButtons: Settings"
+msgstr "MaxButtons: настройки"
+
+#: classes/maxbuttons-admin-helper.php:40 classes/maxbuttons-class.php:336
+#: includes/maxbuttons-pro.php:11
+msgid "Upgrade to Pro"
+msgstr "Обновить до PRO"
+
+#: classes/maxbuttons-class.php:335
+msgid "MaxButtons: Upgrade to Pro"
+msgstr "MaxButtons: обновление до Pro"
+
+#: classes/controller.php:99 classes/maxbuttons-class.php:328
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: classes/maxbuttons-class.php:327
+msgid "MaxButtons: Add/Edit Button"
+msgstr "MaxButtons: кнопка добавить/изменить"
+
+#: classes/maxbuttons-admin-helper.php:37 classes/maxbuttons-class.php:322
+#: classes/maxbuttons-class.php:797
+msgid "Buttons"
+msgstr "Кнопки"
+
+#. Plugin Name of the plugin
+#: maxbuttons.php assets/integrations/siteorigins_builder/sitebuilder.php:8
+#: assets/integrations/siteorigins_builder/widgets/maxbuttons-widget/maxbuttons-widget.php:18
+#: classes/maxbuttons-class.php:309
+msgid "MaxButtons"
+msgstr "MaxButtons"
+
+#: classes/maxbuttons-class.php:308
+msgid "MaxButtons: Buttons"
+msgstr "MaxButtons: кнопки"
+
+#: classes/max-utils.php:496
+msgid "MaxButtons Loading Time:"
+msgstr "Время загрузки MaxButtons:"
+
+#: classes/max-utils.php:215
+msgid "Set your own breakpoints"
+msgstr "Установите собственные точки останова"
+
+#: classes/max-utils.php:214
+msgid "Large desktop screens, from 1824px"
+msgstr "Большие экраны для настольных ПК, от 1824px"
+
+#: classes/max-utils.php:213
+msgid "Desktop screens from 1224px"
+msgstr "Экраны компьютеров от 1224px"
+
+#: classes/max-utils.php:212
+msgid "Optimized for deviced between 768px and 1024 in portrait"
+msgstr "Оптимизирован для устройств с разрешением от 768 до 1024 пикселей в портретной ориентации"
+
+#: classes/max-utils.php:211
+msgid "Optimized for devices between 768px and 1024px in landscape"
+msgstr "Оптимизировано для устройств с диагональю от 768px до 1024px в альбомном режиме"
+
+#: classes/max-utils.php:210
+msgid "Optimized for medium sizes devices between 480px and 768px"
+msgstr "Оптимизирован для устройств среднего размера от 480px до 768px"
+
+#: classes/max-utils.php:209
+msgid "Optimized for devices between 768px and 1024px"
+msgstr "Оптимизировано для устройств с разрешением от 768px до 1024px"
+
+#: classes/max-utils.php:208
+msgid "Optimized for small phones ( screen size max 320px )"
+msgstr "Оптимизирован для маленьких телефонов (размер экрана не более 320px)"
+
+#: classes/max-utils.php:207
+msgid "Optimzed for small smartphones in landscape and higher ( screen sizes 321px - 480px)"
+msgstr "Оптимизировано для маленьких смартфонов в альбомной ориентации и выше (размеры экрана 321px - 480px)"
+
+#: classes/max-utils.php:206
+msgid "Optimized for small smartphones ( screen sizes under 480px )"
+msgstr "Оптимизирован для маленьких смартфонов (размер экрана менее 480px)"
+
+#: classes/max-utils.php:202
+msgid "Custom size"
+msgstr "Произвольный размер"
+
+#: classes/max-utils.php:201
+msgid "Large desktops"
+msgstr "Большие настольные ПК"
+
+#: classes/max-utils.php:199
+msgid "Ipad portrait"
+msgstr "Ipad - книжная"
+
+#: classes/max-utils.php:198
+msgid "Ipad landscape"
+msgstr "Ipad - альбомная"
+
+#: classes/max-utils.php:194
+msgid "Small phones (landscape) "
+msgstr "Маленькие телефоны (альбом) "
+
+#: blocks/basic.php:483
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: blocks/basic.php:407
+msgid "Font"
+msgstr "Шрифт"
+
+#: includes/maxbuttons-list.php:106
+msgid "Button"
+msgstr "Кнопка"
+
+#: classes/screen.php:85
+msgid "Add"
+msgstr "Добавить"
+
+#: blocks/responsive.php:288
+msgid "Hide button in this screen"
+msgstr "Скрыть кнопку на этом экране"
+
+#: blocks/basic.php:548 blocks/basic.php:564 blocks/basic.php:598
+#: blocks/basic.php:622 blocks/container.php:209
+#: includes/maxbuttons-settings.php:135 includes/maxbuttons-settings.php:148
+msgid "%"
+msgstr "%"
+
+#: blocks/basic.php:425 blocks/basic.php:548 blocks/basic.php:564
+#: blocks/basic.php:587 blocks/basic.php:614 blocks/border.php:214
+#: blocks/container.php:200 blocks/responsive.php:264 blocks/responsive.php:281
+#: classes/screen.php:433 classes/screen.php:434 classes/screen.php:438
+#: classes/screen.php:439 classes/screen.php:444 classes/screen.php:445
+#: includes/maxbuttons-button.php:139 includes/maxbuttons-button.php:140
+#: includes/maxbuttons-button.php:142 includes/maxbuttons-button.php:143
+msgid "px"
+msgstr "px"
+
+#: blocks/basic.php:569
+msgid "Button Height"
+msgstr "Высота кнопки"
+
+#: blocks/basic.php:554
+msgid "Button Width"
+msgstr "Ширина кнопки"
+
+#: blocks/container.php:255
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: blocks/container.php:250
+msgid "Margin Left"
+msgstr "Внешний отступ слева"
+
+#: blocks/container.php:241
+msgid "Margin Bottom"
+msgstr "Внешний отступ снизу"
+
+#: blocks/container.php:232
+msgid "Margin Right"
+msgstr "Внешний отступ справа"
+
+#: blocks/container.php:223
+msgid "Margin Top"
+msgstr "Внешний отступ сверху"
+
+#: blocks/container.php:154
+msgid "Use Container"
+msgstr "Используйте контейнер"
+
+#: blocks/container.php:149
+msgid "Container"
+msgstr "Контейнер"
+
+#: blocks/border.php:236 blocks/border.php:298 blocks/text.php:211
+msgid "Hover"
+msgstr "При наведении"
+
+#: blocks/basic.php:394
+msgid "Text"
+msgstr "Текст"
+
+#: blocks/border.php:255 blocks/text.php:175
+msgid "Shadow Offset Top"
+msgstr "Смещение тени верх"
+
+#: blocks/border.php:246 blocks/text.php:165
+msgid "Shadow Offset Left"
+msgstr "Смещение тени влево"
+
+#: blocks/border.php:209 blocks/container.php:187
+msgid "Width"
+msgstr "Ширина"
+
+#: blocks/border.php:199
+msgid "Style"
+msgstr "Стиль"
+
+#: blocks/border.php:193
+msgid "Bottom Right"
+msgstr "Справа внизу"
+
+#: blocks/border.php:191
+msgid "Bottom Left"
+msgstr "Слева внизу"
+
+#: blocks/border.php:189
+msgid "Top Right"
+msgstr "Справа вверху"
+
+#: classes/field.php:102
+msgid "Default:"
+msgstr "По умолчанию:"
+
+#: blocks/border.php:187
+msgid "Top Left"
+msgstr "Слева вверху"
+
+#: blocks/border.php:126
+msgid "Radius"
+msgstr "Радиус"
+
+#: blocks/border.php:120
+msgid "Border"
+msgstr "Граница"
+
+#: blocks/basic.php:360 classes/admin-class.php:371
+msgid "Use rel=\"nofollow\""
+msgstr "Использовать rel=\"nofollow\""
+
+#: classes/admin-class.php:355
+msgid "Open in New Window"
+msgstr "Открыть в новом окне"
+
+#: blocks/basic.php:294
+msgid "URL"
+msgstr "URL"
+
+#: blocks/basic.php:644
+msgid "Brief explanation about how and where the button is used."
+msgstr "Краткое объяснение того, как и где используется кнопка."
+
+#: blocks/basic.php:638
+msgid "Description"
+msgstr "Описание"
+
+#: blocks/basic.php:266
+msgid "Basics"
+msgstr "Основы"
+
+#: blocks/advanced.php:196
+msgid "Please save the button first"
+msgstr "Сначала сохраните кнопку"
+
+#: blocks/advanced.php:179
+msgid "If the \"Use External CSS\" option is enabled for this button, copy and paste the CSS code below into your theme stylesheet."
+msgstr "Если для этой кнопки включена опция \"Использовать внешний CSS\", скопируйте и вставьте приведенный ниже код CSS в таблицу стилей вашей темы."
+
+#: blocks/advanced.php:177
+msgid "External CSS"
+msgstr "Внешний CSS"
+
+#: blocks/advanced.php:162
+msgid "View CSS"
+msgstr "Просмотр CSS"
+
+#: blocks/advanced.php:144
+msgid "Use External CSS"
+msgstr "Используйте внешние CSS"
+
+#: blocks/advanced.php:116
+msgid "Use !Important"
+msgstr "Использовать !Important"
+
+#: blocks/advanced.php:112
+msgid "Adding !important to the button styles can help avoid potential conflicts with your theme styles."
+msgstr "Добавление !important в стили кнопок поможет избежать потенциальных конфликтов со стилями вашей темы."
+
+#: blocks/advanced.php:108 includes/maxbuttons-settings.php:205
+msgid "Advanced"
+msgstr "Дополнительно"
